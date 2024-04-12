@@ -1,3 +1,3 @@
 #/bin/bash
 
-java -jar ./sbt-launch.jar "docker:publishLocal"
+java -Xss3m -jar ./sbt-launch.jar "docker:publishLocal"

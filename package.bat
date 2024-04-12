@@ -1,2 +1,2 @@
 
-java -jar ./sbt-launch.jar "docker:publishLocal"
+java -Xss5m -jar ./sbt-launch.jar "docker:publishLocal"
